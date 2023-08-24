@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game By Nuno</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="board">
+        <h1 class="title">Rock Papper Scissors</h1>
+        <div class="game">
+          <div id="player1">
+            <button id="papel">
+              <img class="img" src="game_papel.png" alt="Papel" />
+            </button>
+            <button id="pedra">
+              <img class="img" src="game_pedra.png" alt="pedra" />
+            </button>
+            <button id="tesoura">
+              <img class="img" src="game_tesoura.png" alt="tesoura" />
+            </button>
+          </div>
+          <div id="computer">
+            <div class="elementPapel">
+              <img class="img cima" src="game_papel.png" alt="Papel" />
+            </div>
+            <div class="elementPedra">
+              <img class="img cima" src="game_pedra.png" alt="pedra" />
+            </div>
+            <div class="elementTesoura">
+              <img class="img cima" src="game_tesoura.png" alt="tesoura" />
+            </div>
+          </div>
+        </div>
+        <div class="result">
+          <button class="jogar btn">Play!</button>
+          <button class="reset btn">Play again!</button>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: RUbik, sans-serif;
+  height: 100vh;
+}
+.board {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-bottom: 50px;
+}
+.game {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+button {
+  background-color: transparent !important;
+  border: 0;
+}
+.btn {
+  border: 2px solid green;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: chartreuse;
+}
+.jogar {
+  margin: auto;
+}
+.reset {
+  display: none;
+  margin: auto;
+}
+
+#player1,
+#computer {
+  display: flex;
+  flex-direction: column;
+}
+.result {
+  text-align: center;
+  margin-top: 50px;
+}
+.cima:hover {
+  height: 112px;
+  width: 101px;
+}
+.elementPedra,
+.elementPapel,
+.elementTesoura {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
